@@ -1,0 +1,49 @@
+﻿<Window x:Class="Jeran.Testing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:res="clr-namespace:Jeran.Properties"
+        x:Name="testw"
+        Title="Testing" Height="600" Width="800" Closing="testw_Closing_1" >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Grid Name="display" Grid.Row="0">
+
+
+
+        </Grid>
+
+
+
+        <DockPanel Grid.Row="1" VerticalAlignment="Center" >
+            <Separator BorderBrush="Black" BorderThickness="10" DockPanel.Dock="Top"/>
+            <TextBlock DockPanel.Dock="Left" Text="{x:Static res:Resources.hxmCharge}" TextAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+            <ProgressBar DockPanel.Dock="Left" Width="100" Height="20" Maximum="101" Value="{Binding ElementName=testw, Path=resp.Charge}" Name="charge" />
+            <Separator  DockPanel.Dock="Left"  Width="2" BorderBrush="Black"/>
+            <TextBlock DockPanel.Dock="Left" Text="{x:Static res:Resources.hxmHeartRate}" TextAlignment="Center" VerticalAlignment="Center" Margin="10,10,0,10"/>
+            <TextBlock DockPanel.Dock="Left" Text="{Binding ElementName=testw, Path=resp.HeartRate}" TextAlignment="Center" VerticalAlignment="Center" Margin="3,10,3,10"/>
+            <TextBlock DockPanel.Dock="Left" Text="{x:Static res:Resources.hxmBPM}" TextAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,10"/>
+            <Separator  DockPanel.Dock="Left" Width="2" BorderBrush="Black"/>
+            <Button 
+                    DockPanel.Dock="Right"
+                    HorizontalAlignment="Right" 
+                    FontSize="20"
+                    FontWeight="Medium"
+                    Width="100"
+                    Height="40"
+                    Margin="0,10,40,10"
+                    Content="{x:Static res:Resources.NextButton}"
+                    Name="nextbutton" Click="nextbutton_Click"/>
+            <TextBlock DockPanel.Dock="Right" Name="timer" Text="{Binding delay, ElementName=testw,StringFormat=mm\\:ss}" Visibility="Hidden" TextAlignment="Right" VerticalAlignment="Center" Margin="0,10,20,10" FontSize="20" IsEnabled="False" />
+               
+
+
+        </DockPanel>
+
+    </Grid>
+    
+</Window>
+

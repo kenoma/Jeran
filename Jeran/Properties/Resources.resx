@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DillemFolder" xml:space="preserve">
+    <value>DilEng</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="hxmBPM" xml:space="preserve">
+    <value>bpm</value>
+  </data>
+  <data name="hxmCharge" xml:space="preserve">
+    <value>Battery charge</value>
+  </data>
+  <data name="hxmHeartRate" xml:space="preserve">
+    <value>Heart rate</value>
+  </data>
+  <data name="hxmNotReady" xml:space="preserve">
+    <value>Heart rate monitor is not ready</value>
+  </data>
+  <data name="hxmReady" xml:space="preserve">
+    <value>Heart rate monitor ready</value>
+  </data>
+  <data name="NewTest" xml:space="preserve">
+    <value>New test</value>
+  </data>
+  <data name="NextButton" xml:space="preserve">
+    <value>Next →</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>ᛃ Jeran</value>
+  </data>
+  <data name="ViewDB" xml:space="preserve">
+    <value>View database</value>
+  </data>
+  <data name="ErrorComboboxValidation" xml:space="preserve">
+    <value>Please select a valid value</value>
+  </data>
+  <data name="ErrorTextInputValidation" xml:space="preserve">
+    <value>Please enter a valid value</value>
+  </data>
+  <data name="dilemma_1" xml:space="preserve">
+    <value>Adam; Adam is driving his motorboat when he notices five swimmers drowning in the distance. If Adam does not drive toward them at top speed he will not arrive in time, and all five will die. In order to drive at top speed, Adam must accelerate quickly. If Adam accelerates quickly, he will save the five drowning swimmers. If Adam does not accelerate quickly, the five swimmers will drown. Adam decides to accelerate quickly.;Accelerating quickly is:;</value>
+  </data>
+  <data name="dilemma_10" xml:space="preserve">
+    <value>Jeff ;Standing by the railroad tracks, Jeff sees an empty, out-of-control boxcar speeding toward five people. There is one person on a footbridge spanning the main tracks who is slipping and about to fall onto the main track, where he will be hit by the boxcar. The boxcar will slow down because of the one person, therefore preventing the five from being hit. Next to Jeff is a lever that can be pulled, raising the railing on the footbridge and preventing the one person from falling. If Jeff does not pull the lever the one person will fall and be hit by the boxcar, and therefore the boxcar will slow down and not hit the five people. If Jeff pulls the lever the boxcar will continue down the tracks and hit five people, and the one person will remain safe above the main track. Jeff decides not to pull the lever.;Not pulling the lever is:</value>
+  </data>
+  <data name="dilemma_11" xml:space="preserve">
+    <value>Rick ;Rick is a fireman trying to help five children out of a burning house. There is only one window from which the children can be safely evacuated, and it is jammed shut. Rick must immediately smash open this large, heavy window or else all five children will die. Outside the window, on the sill, is a man safely awaiting evacuation who Rick cannot help hitting with his fist if he breaks the window, causing the man to fall off the sill. Falling off the sill is certain to kill the man. If Rick breaks open the window he will hit the man with his fist, the man will fall off and die, but the five children will be safely evacuated. If Rick does not break open the window the man will be safely evacuated, but the children will die. Rick decides to break open the window.;Breaking open the window is:</value>
+  </data>
+  <data name="dilemma_12" xml:space="preserve">
+    <value>Ken; Ken is a fireman trying to help five children out of a burning house. There is only one window from which the children can be safely evacuated, and it is jammed shut. Ken must immediately smash open this large, heavy window or else all five children will die. Outside the window, on the ground below, is a man safely awaiting evacuation who Ken cannot help hitting with heavy falling glass if he breaks the window. The falling glass is certain to kill the man. If Ken breaks open the window, he will hit the man with the glass, the man will die, but the five children will be safely evacuated. If Ken does not break open the window, the man will be safely evacuated, but the five children will die. Ken decides to break open the window.;Breaking open the window is:</value>
+  </data>
+  <data name="dilemma_13" xml:space="preserve">
+    <value>Peter;Peter is a fireman trying to help five children out of a burning house. There is only one window from which the children can be safely evacuated, and it is jammed shut. Peter must immediately use an object to smash open this large, heavy window or else all five children will die. The only sufficiently large object is a man on his way towards safely escaping the burning house. Crashing through the window is certain to kill the man. If Peter pushes the man into the window and breaks it open, the man will fall out and die, but the five children will be safely evacuated. If Peter does not push the man into the window the man will safely escape, but the five children will die. Peter decides to push the man.;Pushing the man is:</value>
+  </data>
+  <data name="dilemma_14" xml:space="preserve">
+    <value>Andy ;Andy is a fireman trying to help five children out of a burning house. There is only one window from which the children can be safely evacuated, and it is jammed shut. Andy must immediately use an object to smash open this large, heavy window or else all five children will die. The only sufficiently large object is a man on his way towards safely escaping the burning house. Andy can break open the window by swinging a piece of burning debris towards the man, which will cause the man to jump out of the way, lose his balance and crash into the window. Falling out of the window is certain to kill the man. If Andy swings the burning debris the man will break open the window, fall out and die, but the five children will be safely evacuated. If Andy does not swing the burning debris, causing the man to break open the window, the man will safely escape, but the five children will die. Andy decides to swing the burning debris.;Swinging the burning debris is:</value>
+  </data>
+  <data name="dilemma_15" xml:space="preserve">
+    <value>Ed ;Ed is driving five sick people to the hospital. They are in critical condition and will die if Ed makes any stops along the way. In his hurry to pack them in the car Ed slams the door on a few feet of thick cord that is now dangling beside the car. Ed takes the fastest route to the hospital, which is a narrow, unpaved mountain pass. On his way, Ed sees a rock climber hanging onto the side of the mountain beside the road. The rock climber is safe and in control, but if Ed drives by the thick cord dragging along the side of his car will dislodge the rock climber, causing him to fall to his death. If Ed slows to a stop and waits, the rock climber will be able to reach a stable landing where the cord will not dislodge him, but it will be too late to save the five people. If Ed continues to drive, the one person will fall to his death and the five will be saved. Ed decides to continue to drive.;Continuing to drive is:</value>
+  </data>
+  <data name="dilemma_16" xml:space="preserve">
+    <value>Jack ;Jack is driving five sick people to the hospital. They are in critical condition and will die if Jack makes any stops along the way. In his hurry to pack them in the car Jack slams the door on a few feet of thick cord that is now dangling beside the car. Jack takes the fastest route to the hospital, which is a narrow, unpaved mountain pass. On his way, Jack sees a rock climber hanging onto the side of the mountain beside the road. The rock climber is losing control and is about to fall to his death, but he could be saved if he had a cord to pull himself up. If Jack slows to a stop the rock climber will be able to use the cord dangling from the side of the car to pull himself up to safety, but it will be too late to save the five people. If Jack continues to drive, the one person will fall to his death and the five will be saved. Jack decides to continue to drive.;Continuing to drive is:</value>
+  </data>
+  <data name="dilemma_17" xml:space="preserve">
+    <value>Tim ;Tim works at a hospital. He is in charge of a machine that can both increase and decrease the amount of a certain chemical in a patient's bloodstream. Too much or too little of the chemical results in death. Tim notices that the machine has pumped a near toxic amount of the chemical into a patient's body. Tim must immediately stop the machine to save the patient's life. However, he sees that five other patients with toxic amounts of the chemical are hooked up to the machine. The machine is removing the chemical from these five patients. If Tim stops the machine to save the one patient, the five other patients will die. If Tim doesn’t stop the machine, the one patient will die, but the five other patients will survive. Tim decides not to stop the machine.;Not stopping the machine is:</value>
+  </data>
+  <data name="dilemma_18" xml:space="preserve">
+    <value>Bob ;Bob works at a hospital. He is in charge of a machine that can both increase and decrease the amount of a certain chemical in a patient's bloodstream. Too much or too little of the chemical results in death. Bob notices that the machine has pumped a near toxic amount of the chemical into a patient's body. Bob must immediately disconnect the patient to save the patient's life. However, he sees that five other patients with toxic amounts of the chemical are hooked up to the machine. The machine is removing the chemical from these five patients and will continue to do so only if it can maintain equilibrium by continuing to pump the chemical into the one patient. If Bob disconnects the machine to save the one patient, the machine will not be able to maintain equilibrium and the five other patients will die. If Bob doesn’t disconnect the machine from the one patient, the one patient will die, but the five other patients will survive. Bob decides not to disconnect the machine from the one patient.;Not disconnecting the machine from the one patient is:</value>
+  </data>
+  <data name="dilemma_19" xml:space="preserve">
+    <value>James ;James is hiking through a foreign land when he comes across a remote village. James learns that one of the villagers fell into a cursed pond but, contrary to local superstition, did not die. If the one villager does not die by sunrise, five other innocent and unwilling villagers will be sacrificed to the gods to thank them for sparing the one. James, who has some medical training, realizes that he can prevent the sacrifice of the five villagers if he secretly poisons the one villager. If James poisons the one, the one will be dead by sunrise, and the five will not be sacrificed. If James does not poison the one, the one will not be dead by sunrise, and the five will be sacrificed as planned. James decides to poison the one. James decides to poison the one.;Poisoning the one is:</value>
+  </data>
+  <data name="dilemma_2" xml:space="preserve">
+    <value>Ben; Ben sees that an empty runaway boxcar is headed down a track. There is nobody on the track. There is one person working on a side track. If Ben flips the switch, the boxcar will turn onto the side track and hit the one person. If Ben does not flip the switch, the boxcar will continue on the track, and nobody will be hit. Ben decides to flip the switch.;Flipping the switch is:</value>
+  </data>
+  <data name="dilemma_20" xml:space="preserve">
+    <value>Robert ;Robert is hiking through a foreign land when he comes across a remote village. Robert learns that one of the villagers fell into a cursed pond but, contrary to local superstition, did not die. If the one villager does not die by sunrise, five other innocent and unwilling villagers will be sacrificed to the gods to thank them for sparing the one. Robert, who has some medical training, notices that the one has accidentally consumed a poisonous substance. Robert can administer the antidote to the one villager. If Robert withholds the antidote from the one, the one will die by sunrise, and the five will not be sacrificed. If Robert does provide the antidote to the one, the one will not be dead by sunrise, and the five will be sacrificed as planned. Robert decides not to provide the antidote to the one.;Not providing the antidote to the one is:</value>
+  </data>
+  <data name="dilemma_21" xml:space="preserve">
+    <value>Fred ;Fred is working on the top floor of a construction project when he sees a gearbox at the end of a steel beam is about to break. Suspended from the gearbox is an elevated platform with five workers on it, and if the gearbox breaks the five workers will fall to their deaths. Fred can save the five if he rushes across the steel beam immediately to engage the backup mechanism on the gearbox. In between Fred and the gearbox there is a worker standing on the beam. Fred knows that if he rushes across the narrow beam he is certain to bump into the other worker, causing this worker to fall to his death. The construction site is too noisy for Fred to warn the other worker. If Fred does nothing, the gearbox will break and the five workers will fall to their deaths, but the one worker will remain safe. If Fred rushes to engage the backup mechanism, the five workers will be saved but Fred will bump into the one worker, who will fall to his death. Fred decides to rush to engage the backup mechanism.;Rushing to engage the backup mechanism is:</value>
+  </data>
+  <data name="dilemma_22" xml:space="preserve">
+    <value>Ethan ;Ethan is working on the top floor of a construction project when he sees a gearbox at the end of a steel beam is about to break. Suspended from the gearbox is an elevated platform with five workers on it, and if the gearbox breaks the five workers will fall to their deaths. Ethan can save the five if he rushes across the steel beam immediately to engage the backup mechanism on the gearbox. In between Ethan and the gearbox there is a gate and a worker standing next to the gate. Ethan knows that if he rushes through the gate, the gate is certain to bump into the other worker, causing this worker to fall to his death. The construction site is too noisy for Ethan to warn the other worker. If Ethan does nothing, the gearbox will break and the five workers will fall to their deaths, but the one worker will remain safe. If Ethan rushes to engage the backup mechanism, the five workers will be saved but Ethan will cause the gate to bump into the one worker, who will fall to his death. Ethan decides to rush to engage the backup mechanism. ;Rushing to engage the backup mechanism is:</value>
+  </data>
+  <data name="dilemma_23" xml:space="preserve">
+    <value>Joe ;Joe is drifting along in his motorboat at the mouth of a narrow channel when he notices a shark approaching. Further down the channel he sees five swimmers. If Joe maintains his current position, his boat will obstruct the entrance to the channel, thereby preventing the shark from attacking the five swimmers. However, Joe sees another swimmer drowning in the distance. Joe can save the one swimmer by immediately moving toward him in the motorboat, thereby leaving the channel open to the shark. If Joe moves towards the one swimmer in his motorboat, the one swimmer will live but the five swimmers will be eaten by the shark. If Joe does not move toward him, the one swimmer will drown but the five swimmers will remain safe. Joe decides not to move toward the one swimmer.;Not moving toward the one swimmer is:</value>
+  </data>
+  <data name="dilemma_24" xml:space="preserve">
+    <value>Casey ;Casey is drifting along in his motorboat near the mouth of a narrow channel when he notices a shark approaching. Further down the channel he sees five swimmers. However, one other swimmer is positioned at the mouth of the channel such that the shark will attack the one first, giving the five the necessary time to escape. Casey can save the one swimmer by immediately moving toward him in the motorboat, but saving the one swimmer would also leave the channel open to the shark. If Casey moves towards the one swimmer, the one swimmer will live but the five swimmers will be eaten by the shark. If Casey does not move toward him, the one swimmer will be eaten by the shark but the five swimmers will remain safe. Casey decides not to move toward the one swimmer.;Not moving toward the one swimmer is:</value>
+  </data>
+  <data name="dilemma_25" xml:space="preserve">
+    <value>Mark ;Mark receives a communication that the captain of a cargo ship has contracted a highly infectious disease. The captain himself is only a carrier of the disease and is immune to the symptoms, but anybody who comes into contact with him will die. No passengers are on the ship. The ship is headed for a remote island where the captain will hand-deliver the cargo to the five islanders. The captain does not know that he is carrying the disease and has no radio on board to receive a warning. Mark takes off in a helicopter to intercept the ship, but from a distance he sees the ship about to dock. The only way Mark can stop the captain from transmitting the disease is to use a missile to blow up the ship. If Mark fires the missile, the captain will die and the five islanders will live. If Mark does not fire the missile, the captain will live and the five islanders will die. Mark decides to fire the missile.;Firing the missile is:</value>
+  </data>
+  <data name="dilemma_26" xml:space="preserve">
+    <value>George ;George receives a communication that the captain of a cargo ship has contracted a highly infectious disease. The captain himself is only a carrier of the disease and is immune to the symptoms, but anybody who comes into contact with him will die. No passengers are on the ship. The ship is headed for a remote island where the captain will hand-deliver the cargo to the five islanders. The captain does not know that he is carrying the disease and has no radio to receive a warning. George takes off in a helicopter to intercept the ship, but from a distance he sees the ship about to dock. The ship is on fire, however, and the captain will be burned before the ship docks. George could fire a missile into the water next to the ship, causing a splash that would put out the fire and save the captain. If George fires the missile the captain will live but the disease will be transmitted, killing the five islanders. If George does not fire the missile the captain will die and the five islanders will live. George decides to fire the missile.;Firing the missile is:</value>
+  </data>
+  <data name="dilemma_27" xml:space="preserve">
+    <value>John ;John is driving a motorboat when he notices five swimmers drowning in the distance. If John does not drive toward them at top speed, he will not arrive in time, and all five will die. In order to drive at top speed, John must lighten the load on his boat. The only way to lighten the load is to push his passenger with his hands and cause the passenger to tumble off the back of the boat. This passenger cannot swim and will drown. If John pushes the passenger, the one passenger will drown, but John will save the five drowning swimmers. If John does not push the passenger, the one passenger will not drown, but the five swimmers will drown. John decides to push the one passenger.;Pushing the one passenger is:</value>
+  </data>
+  <data name="dilemma_28" xml:space="preserve">
+    <value>Matt ;Matt is driving a motorboat when he notices five swimmers drowning in the distance. If Matt does not drive toward them at top speed he will not arrive in time, and all five will die. In order to drive at top speed, Matt must accelerate quickly. Accelerating quickly will also cause a passenger to tumble off the back of the boat. This passenger cannot swim and will drown. If Matt accelerates quickly, the one passenger will drown, but Matt will save the five drowning swimmers. If Matt does not accelerate quickly, the one passenger will stay safely on the boat, but the five swimmers will drown. Matt decides to accelerate quickly.;Accelerating quickly is:</value>
+  </data>
+  <data name="dilemma_3" xml:space="preserve">
+    <value>Connor ; Connor is at a new aquarium exhibit when he sees a visitor slip on a wet floor, fall down, and break his neck. The visitor is still alive and can be safely evacuated by medics so long as he is not moved. He has fallen, however, on top of the oxygen supply line servicing five other visitors in an underwater observation pod. Without oxygen, the five visitors will soon die. If Connor does nothing the one visitor will be safely evacuated, but the five visitors in the pod will die. If Connor pushes the one visitor off the supply line this one visitor will die, but the five visitors in the pod will have their oxygen restored and will live. Connor decides to push the one visitor.;Pushing the one visitor is:</value>
+  </data>
+  <data name="dilemma_29" xml:space="preserve">
+    <value>Dave ;Dave is driving a motorboat when he notices five swimmers drowning in the distance. If Dave does not drive toward them at top speed he will not arrive in time, and all five will die. In order to drive at top speed, Dave must lighten the load on his boat. The only way to lighten the load is to accelerate quickly and cause a passenger to tumble off the back of the boat. This passenger cannot swim and will drown. If Dave accelerates quickly, the one passenger will drown, but Dave will save the five drowning swimmers. If Dave does not accelerate quickly, the one passenger will not drown, but the five swimmers will drown. Dave decides to accelerate quickly.;Accelerating quickly is:</value>
+  </data>
+  <data name="dilemma_30" xml:space="preserve">
+    <value>Todd ;Todd is operating the switch at a railroad station when he sees an empty, out of control boxcar coming down the tracks. It is moving so fast that anyone it hits will die immediately. The boxcar is headed towards a repairman whose leg is caught in the switch. If Todd does nothing, the boxcar will hit the repairman and then come to a stop on the empty main track where nobody else is threatened. Todd can pull a lever that will switch the tracks and release the repairman’s leg, allowing him to jump safely out of the way. However, switching the tracks will send the boxcar down a side track where it will hit five other repairmen working on the tracks. Todd decides not to pull the lever.;Not pulling the lever is:</value>
+  </data>
+  <data name="dilemma_31" xml:space="preserve">
+    <value>Luke ;Luke is operating the switch at a railroad station when he sees an empty, out of control boxcar coming down the tracks. It is moving so fast that anyone it hits will die immediately. The boxcar is headed towards five repairmen on the track. If Luke does nothing, the boxcar will hit the five repairmen on the track. Luke can pull a lever redirecting the boxcar to an empty sidetrack. However, pulling the lever will cause the switch to crush one other repairman working on the switch, who will die immediately. Luke decides to pull the lever.;Pulling the lever is:</value>
+  </data>
+  <data name="dilemma_32" xml:space="preserve">
+    <value>Alan ;Alan is operating the switch at a railroad station when he sees an empty, out of control boxcar coming down the tracks. It is moving so fast that anyone it hits will die immediately. The boxcar is headed towards a repairman whose leg is caught in the switch. Further down the main track are five more repairmen. If Alan does nothing, the boxcar will hit the one repairman and therefore slow to a stop and not hit the other five repairmen. Alan can pull a lever and release the repairman’s leg, allowing him to jump safely out of the way. However, releasing the repairman will allow the boxcar to continue down the main track where it will hit the five other repairmen working on the tracks. Alan decides not to pull the lever.;Not pulling the lever is:</value>
+  </data>
+  <data name="dilemma_4" xml:space="preserve">
+    <value>Mike; Mike is at a new aquarium exhibit when he sees a visitor slip on a wet floor, fall down, and break his neck. The visitor is still alive and can be safely evacuated by medics so long as he is not moved. He has fallen, however, on top of the oxygen supply line servicing five other visitors in an underwater observation pod. Without oxygen, the five visitors will soon die. If Mike does nothing the one visitor will be safely evacuated, but the five visitors in the pod will die. If Mike pulls the supply line out from under the one visitor this one visitor will die, but the five visitors in the pod will have their oxygen restored and will live. Mike decides to pull the supply line.;Pulling the supply line is:</value>
+  </data>
+  <data name="dilemma_5" xml:space="preserve">
+    <value>Justin ; Justin is driving his motorboat in the bay when he notices some swimmers in trouble. There are five swimmers drowning at the end of a narrow channel in front of Justin. In between Justin and the drowning swimmers is another swimmer who is safe and not in trouble. If Justin takes the narrow channel to the five drowning swimmers and saves them, the wake from Justin’s boat will wash over the safe swimmer, drowning him. If Justin does nothing, the five swimmers will drown and the one swimmer will remain safe. Justin decides to take the narrow channel.;Taking the narrow channel is:</value>
+  </data>
+  <data name="dilemma_6" xml:space="preserve">
+    <value>Don; Don is driving his motorboat in the bay when he notices some swimmers in trouble. There are five swimmers drowning at the end of a channel in front of Don. To the side of the channel there is another swimmer drowning. If Don stops to save the one swimmer on the side of the channel, he will not be able to get to the five swimmers in time to save them. If Don continues to speed towards the five swimmers past the one swimmer, the one swimmer will drown, but he will reach the five swimmers in time to save them. Don decides to continue to speed towards the five swimmers.;Continuing to speed towards the five swimmers is:</value>
+  </data>
+  <data name="dilemma_7" xml:space="preserve">
+    <value>Dennis ; Standing by the railroad tracks, Dennis sees an empty, out-of-control boxcar about to hit five people. Next to Dennis is a lever that can be pulled, sending the boxcar down a side track and away from the five people. But pulling the lever will also lower the railing on a footbridge spanning the side track, causing one person to fall off the footbridge and onto the side track, where he will be hit by the boxcar. If Dennis pulls the lever the boxcar will switch tracks and not hit the five people, and the one person to fall and be hit by the boxcar. If Dennis does not pull the lever the boxcar will continue down the tracks and hit five people, and the one person will remain safe above the side track. Dennis decides to pull the lever.;Pulling the lever is:</value>
+  </data>
+  <data name="dilemma_8" xml:space="preserve">
+    <value>Frank ;Standing on a footbridge spanning the railroad tracks, Frank sees an empty, out-of-control boxcar about to hit five people. Frank’s leg is stuck in the railing, but next to Frank is one person who he can push, causing the one person to fall off the footbridge and onto the main track where he will be hit by the boxcar. The boxcar will slow down because of the one person, therefore preventing the five from being hit. If Frank pushes the one person, the one person will fall and be hit by the boxcar, and therefore the boxcar will slow down and not hit the five people. If Frank does not push the one person the boxcar will continue down the tracks and hit five people, and the one person will remain safe above the main track. Frank decides to push the one person.;Pushing the one person is:</value>
+  </data>
+  <data name="dilemma_9" xml:space="preserve">
+    <value>Evan ;Standing by the railroad tracks, Evan sees an empty, out-of-control boxcar about to hit five people. Next to Evan is a lever that can be pulled, lowering the railing on a footbridge that spans the main track, and causing one person to fall off the footbridge and onto the main track, where he will be hit by the boxcar. The boxcar will slow down because of the one person, therefore preventing the five from being hit. If Evan pulls the lever the one person will fall and be hit by the boxcar, and therefore the boxcar will slow down and not hit the five people. If Evan does not pull the lever the boxcar will continue down the tracks and hit the five people, and the one person will remain safe above the main track. Evan decides to pull the lever.;Pulling the lever is:</value>
+  </data>
+</root>
